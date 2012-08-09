@@ -1,0 +1,166 @@
+/*-------------------------------Information------------------------------
+Author: Rachael Hill & Jessica Sears
+Date: 08/09/2012
+Project: The Borrower - Mobile
+/*-------------------------------General------------------------------*/
+.ui-bar-a {
+	border: 1px solid  /*{a-bar-border}*/;
+	background: #775413 /*{a-bar-background-color}*/;
+	color:  black /*{a-bar-color}*/;
+	font-weight: bold;
+	text-shadow: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #825c14 /*{a-bar-background-start}*/), to( #6b4b11 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #825c14 /*{a-bar-background-start}*/, #6b4b11 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #825c14 /*{a-bar-background-start}*/, #6b4b11 /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #825c14 /*{a-bar-background-start}*/, #6b4b11 /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #825c14 /*{a-bar-background-start}*/, #6b4b11 /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #825c14 /*{a-bar-background-start}*/, #6b4b11 /*{a-bar-background-end}*/);
+}
+
+.ui-bar-a {
+  text-shadow: none;
+}
+
+.ui-content{
+	background: #f6eee0;
+	text-shadow: none;
+	color: black;
+}
+
+.ui-body-a,
+.ui-overlay-a {
+	background: #f6eee0;
+	text-shadow: none;
+	color: black;
+}
+
+.ui-body-z,
+.ui-overlay-z {
+    background: #f6eee0 ;
+    font-family: helvetica, arial, sans-serif;
+    text-shadow: none;
+}
+
+.ui-btn-up-a {
+	border: 1px solid  /*{a-bup-border}*/;
+	background: #775413 /*{a-bup-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{a-bup-color}*/;
+	text-shadow: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #825c14 /*{a-bup-background-start}*/), to( #6b4b11 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #825c14 /*{a-bup-background-start}*/, #6b4b11 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #825c14 /*{a-bup-background-start}*/, #6b4b11 /*{a-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #825c14 /*{a-bup-background-start}*/, #6b4b11 /*{a-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #825c14 /*{a-bup-background-start}*/, #6b4b11 /*{a-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #825c14 /*{a-bup-background-start}*/, #6b4b11 /*{a-bup-background-end}*/);
+}
+.ui-btn-up-a:visited,
+.ui-btn-up-a a.ui-link-inherit {
+	color: #000000 /*{a-bup-color}*/;
+}
+.ui-btn-hover-a {
+	border: 1px solid  /*{a-bhover-border}*/;
+	background: #553d11 /*{a-bhover-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{a-bhover-color}*/;
+	text-shadow: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #5d4312 /*{a-bhover-background-start}*/), to( #4c360f /*{a-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #5d4312 /*{a-bhover-background-start}*/, #4c360f /*{a-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #5d4312 /*{a-bhover-background-start}*/, #4c360f /*{a-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #5d4312 /*{a-bhover-background-start}*/, #4c360f /*{a-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #5d4312 /*{a-bhover-background-start}*/, #4c360f /*{a-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #5d4312 /*{a-bhover-background-start}*/, #4c360f /*{a-bhover-background-end}*/);
+}
+.ui-btn-hover-a:visited,
+.ui-btn-hover-a:hover,
+.ui-btn-hover-a a.ui-link-inherit {
+	color: #000000 /*{a-bhover-color}*/;
+}
+.ui-btn-down-a {
+	border: 1px solid #f9FF25 /*{a-bdown-border}*/;
+	background: #473410 /*{a-bdown-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{a-bdown-color}*/;
+	text-shadow: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #4e3911 /*{a-bdown-background-start}*/), to( #3f2e0e /*{a-bdown-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #4e3911 /*{a-bdown-background-start}*/, #3f2e0e /*{a-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #4e3911 /*{a-bdown-background-start}*/, #3f2e0e /*{a-bdown-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #4e3911 /*{a-bdown-background-start}*/, #3f2e0e /*{a-bdown-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #4e3911 /*{a-bdown-background-start}*/, #3f2e0e /*{a-bdown-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #4e3911 /*{a-bdown-background-start}*/, #3f2e0e /*{a-bdown-background-end}*/);
+}
+.ui-btn-down-a:visited,
+.ui-btn-down-a:hover,
+.ui-btn-down-a a.ui-link-inherit {
+	color: #000000 /*{a-bdown-color}*/;
+}
+.ui-btn-up-a,
+.ui-btn-hover-a,
+.ui-btn-down-a {
+	 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+	text-decoration: none;
+}
+
+#pop{
+	padding-top: 3em;
+}
+
+li{
+	list-style-type: none ;
+}
+li img{
+	padding: .5em;
+}
+
+#noteList{
+	padding: 0;
+	margin: 0;
+}
+
+#noteList li{
+	height: 7em;
+}
+
+#noteList #itmName{
+	    padding-left: 4em;
+	    display: inline;
+	    position: relative;
+	    bottom: 2em;
+	    font-size: 1em;
+	    color: black;
+	  }
+
+#noteList a{
+	  text-decoration: none;
+	  display: block;
+	  height: 7em;
+	  background-color: #e9d07b;
+}
+
+#noteList a:hover{
+	 background-color: #e7cb6c;
+}
+
+#noteList a:active{
+	 background-color: #e4c65e;
+}
+#noteList #itmOwner{
+	padding-left: 10em;
+	position: relative;
+	bottom: 3em;
+	font-size: .8em;
+	font-weight: normal;
+	color: black;
+}
+
+#noteList img{
+	position: relative;
+	top: 1em;
+}
+
+#noteList #itmNum{
+	position: relative;
+	bottom: 5em;
+	padding-left: 80em;
+	color: black;
+}

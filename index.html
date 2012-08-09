@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+	<head>
+  		<title>The Borrower</title>
+  		<meta charset="utf-8">
+
+		<!-- Mobile viewport optimization h5bp.com/ad -->
+  		<meta name="HandheldFriendly" content="True">
+  		<meta name="MobileOptimized" content="320">
+  		<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+		<!-- Home screen icon  Mathias Bynens mathiasbynens.be/notes/touch-icons -->
+		<!-- iPhone 4+(Retina) -->
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+		<!-- For first-generation iPad: -->
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+		<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+		<link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+
+		<!-- JQueryMobile Framework -->	
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+ 
+		<link rel="stylesheet" href="css/screen.css" />
+	</head>
+	<body>
+
+		<article id="explore" data-role="page" data-theme="a">
+
+			<header data-role="header">
+				<h2>The Borrower</h2>
+			</header>
+
+			<section data-role="content" data-theme="c">	
+				<div id="note">
+					<h2>Notifications</h2>
+					<ul  id="noteList">
+						<li><a href="http://" ><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
+						
+						<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
+					</ul>
+				</div>
+				<div id="pop">
+					<h2>Popular</h2>
+					<ul data-role="listview" id="popList" data-theme="c">
+						<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
+						
+					</ul>
+				</div>	
+			</section>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#explore"><img src="img/icons_11.png" alt="" /></br>Explore</a></li>
+						<li><a href="#friends"><img src="img/icons_08.png" alt="" /></br>Friends</a></li>
+						<li><a href="#inventory"><img src="img/icons_06.png" alt="" /></br>Inventory</a></li>
+						<li><a href="#logout"><img src="img/icons_03.png" alt="" /></br>Logout</a></li>
+					</ul>
+				</nav><!-- /navbar -->
+			</footer>
+		</article>
+		
+		<article id="friends" data-role="page" data-theme="a">
+		
+					<header data-role="header">
+						<h2>The Borrower - Friends</h2>
+					</header>
+		
+					<section data-role="content">	
+						<ul data-role="listview" data-filter="true" data-theme="c"    data-divider-theme="d">
+							<li data-role="list-divider"  >Near By</li>
+							<li><a href="http://"><h3 id="friendName">Jess</h3><p id="friendLoc">Orlando, FL</p><span class="ui-li-count" id="itmNum">10itm</span></a></li>
+							
+							<li data-role="list-divider" data-theme="c">Everyone else</li>
+							<li><a href="http://"><h3 id="friendName">Rachael</h3><p id="friendLoc">Long Lake, Ny</p><span class="ui-li-count" id="itmNum">20itm</span></a></li>
+							<li><a href="http://"><h3 id="friendName">Chris</h3><p id="friendLoc">New York, NY</p><span class="ui-li-count" id="itmNum">0itm</span></a></li>
+						</ul>
+					</section>
+		
+					<footer data-role="footer" data-position="fixed">
+						<nav data-role="navbar">
+							<ul>
+								<li><a href="#explore"><img src="img/icons_11.png" alt="" /></br>Explore</a></li>
+								<li><a href="#friends"><img src="img/icons_08.png" alt="" /></br>Friends</a></li>
+								<li><a href="#inventory"><img src="img/icons_06.png" alt="" /></br>Inventory</a></li>
+								<li><a href="#logout"><img src="img/icons_03.png" alt="" /></br>Logout</a></li>
+							</ul>
+						</nav><!-- /navbar -->
+					</footer>
+				</article>
+				
+		<article id="inventory" data-role="page" data-theme="a">
+		
+					<header data-role="header">
+						<h2>The Borrower - Inventory</h2>
+					</header>
+		
+					<section data-role="content">	
+						<nav data-role="navbar" data-theme="b">
+							<ul>
+								<li><a href="#out">Out</a></li>
+								<li><a href="#in">In</a></li>
+								<li><a href="#own">Own</a></li>
+							</ul>
+						</nav>
+						
+						</br>
+						</br>
+						
+						<ul data-role="listview" data-theme="c"  data-divider-theme="d">
+							<li data-role="list-divider" id="out">Out</li>
+							
+							<li><a href="http://"><img src="img/up.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
+							
+		
+							<li data-role="list-divider" id="in">In</li>
+							
+							<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
+							
+							
+							<li data-role="list-divider" id="own">Own</li>
+							
+							<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
+							
+							<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
+							
+						</ul>
+					</section>
+		
+					<footer data-role="footer" data-position="fixed">
+						<nav data-role="navbar">
+							<ul>
+								<li><a href="#explore"><img src="img/icons_11.png" alt="" /></br>Explore</a></li>
+								<li><a href="#friends"><img src="img/icons_08.png" alt="" /></br>Friends</a></li>
+								<li><a href="#inventory"><img src="img/icons_06.png" alt="" /></br>Inventory</a></li>
+								<li><a href="#logout"><img src="img/icons_03.png" alt="" /></br>Logout</a></li>							</ul>
+						</nav><!-- /navbar -->
+					</footer>
+				</article>		
+
+  	</body>
+
+	<script src="js/main.js"></script>
+</html>
