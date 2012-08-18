@@ -25,38 +25,76 @@
 		<link rel="stylesheet" href="css/screen.css" />
 	</head>
 	<body>
+	
+		<!--
+<artical id="splash" data-role="page" data-theme="a">
+			<header data-role="header" id="header">
+			   <h1>Logo</h1>
+				<h2>The Borrower</h2>
+			</header>
+			<section>
+			  <p id="splashImg">Splash Image</p>
+				<p>The Borrower allows you and your friends to borrow anything, you just have to...</p>
+				<fb:login-button onlogin="loginFace();">Connect with Facebook</fb:login-button>
+			</section>
+			
+			<footer data-role="footer" data-position="fixed" data-theme="b">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#explore"><img src="img/home.png" alt="" /></br>Explore</a></li>
+						<li id="friendIcon"><a href="#friends"><img src="img/friends.png" alt="" /></br>Friends</a></li>
+						<li id="invent"><a href="#inventory"><img src="img/items.png" alt="" /></br>Item Log</a></li>
+						<li><a href="#settings"><img src="img/settings.png" alt="" /></br>Settings</a></li>
+					</ul>
+				</nav><!-- /navbar -->
+			</footer>
+
+		</artical>
+-->
 
 		<article id="explore" data-role="page" data-theme="a">
 
-			<header data-role="header">
+			<header data-role="header" id="header">
+			   <h1>Logo</h1>
 				<h2>The Borrower</h2>
 			</header>
 
 			<section data-role="content" data-theme="c">	
-				<div id="note">
-					<h2>Notifications</h2>
-					<ul  id="noteList">
-						<li><a href="http://" ><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
-						
-						<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
-					</ul>
-				</div>
-				<div id="pop">
-					<h2>Popular</h2>
-					<ul data-role="listview" id="popList" data-theme="c">
-						<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
-						
-					</ul>
-				</div>	
+					<aside>
+					 <h3>Alerts</h3>
+						<section>
+						  <a class="btnAction" href="#">Confirm</a>
+						  <dl>
+						    <dt>Returned to Rachael H.</dt>
+						    <dd>"Complete Book Series of Harry Potter"</dd>
+						  </dl>
+						</section>
+						<br />
+						<section>
+						  <a class="btnAction" href="#">Confirm</a>
+						  <dl>
+						    <dt>Returned to Rachael H.</dt>
+						    <dd>"Complete Book Series of Harry Potter"</dd>
+						  </dl>
+						</section>
+					</aside>
+					
+					<section id="popular">
+				    <h2>Popular</h2>
+				    <ul data-role="listview" data-inset="true" data-theme="c">
+				      <li><a href="http://"><h3>Hammer</h3><p>Jessica</p><span class="ui-li-count">Available</span></a></li>
+				      <li><a href="#items"><h3>Surfboard</h3><p>Donte</p><span class="ui-li-count">2 days</span></a></li>
+				    </ul>
+				  </section>	
 			</section>
 
-			<footer data-role="footer" data-position="fixed">
+			<footer data-role="footer" data-position="fixed" data-theme="b">
 				<nav data-role="navbar">
 					<ul>
-						<li><a href="#explore"><img src="img/icons_11.png" alt="" /></br>Explore</a></li>
-						<li><a href="#friends"><img src="img/icons_08.png" alt="" /></br>Friends</a></li>
-						<li><a href="#inventory"><img src="img/icons_06.png" alt="" /></br>Inventory</a></li>
-						<li><a href="#logout"><img src="img/icons_03.png" alt="" /></br>Logout</a></li>
+						<li><a href="#explore"><img src="img/home.png" alt="" /></br>Explore</a></li>
+						<li id="friendIcon"><a href="#friends"><img src="img/friends.png" alt="" /></br>Friends</a></li>
+						<li id="invent"><a href="#inventory"><img src="img/items.png" alt="" /></br>Item Log</a></li>
+						<li><a href="#settings"><img src="img/settings.png" alt="" /></br>Settings</a></li>
 					</ul>
 				</nav><!-- /navbar -->
 			</footer>
@@ -64,83 +102,151 @@
 		
 		<article id="friends" data-role="page" data-theme="a">
 		
-					<header data-role="header">
-						<h2>The Borrower - Friends</h2>
-					</header>
+					<header data-role="header" id="header">
+  					<h1>Logo</h1>
+  					<h2>The Borrower</h2>
+  				</header>
 		
 					<section data-role="content">	
-						<ul data-role="listview" data-filter="true" data-theme="c"    data-divider-theme="d">
-							<li data-role="list-divider"  >Near By</li>
-							<li><a href="http://"><h3 id="friendName">Jess</h3><p id="friendLoc">Orlando, FL</p><span class="ui-li-count" id="itmNum">10itm</span></a></li>
-							
+						<ul data-role="listview" data-filter="true" data-theme="c" data-divider-theme="z" data-inset="true">
+						
+							<li data-role="list-divider">Near By</li>
+							<li><a href="http://"><img src="img/fbpic.png" />
+						    <dl>
+						      <dt>Jessica S.</dt>
+						      <dd>Orlando, FL</dd>
+						    </dl>
+							  <span class="ui-li-count">10 items</span></a>
+						  </li>
 							<li data-role="list-divider" data-theme="c">Everyone else</li>
-							<li><a href="http://"><h3 id="friendName">Rachael</h3><p id="friendLoc">Long Lake, Ny</p><span class="ui-li-count" id="itmNum">20itm</span></a></li>
-							<li><a href="http://"><h3 id="friendName">Chris</h3><p id="friendLoc">New York, NY</p><span class="ui-li-count" id="itmNum">0itm</span></a></li>
+							<li><a href="http://">
+						    <dl>
+						      <dt>Rachael H.</dt>
+						      <dd>Long Lake, NY</dd>
+						    </dl>
+						    <span class="ui-li-count">20 items</span></a>
+							</li>
+							<li><a href="http://">
+						    <dl>
+						      <dt>Chris C.</dt>
+						      <dd>New York, NY</dd>
+						    </dl>
+						    <span class="ui-li-count">0 items</span></a>
+						  </li>
 						</ul>
 					</section>
 		
-					<footer data-role="footer" data-position="fixed">
-						<nav data-role="navbar">
-							<ul>
-								<li><a href="#explore"><img src="img/icons_11.png" alt="" /></br>Explore</a></li>
-								<li><a href="#friends"><img src="img/icons_08.png" alt="" /></br>Friends</a></li>
-								<li><a href="#inventory"><img src="img/icons_06.png" alt="" /></br>Inventory</a></li>
-								<li><a href="#logout"><img src="img/icons_03.png" alt="" /></br>Logout</a></li>
-							</ul>
-						</nav><!-- /navbar -->
-					</footer>
+					<footer data-role="footer" data-position="fixed" data-theme="b">
+  					<nav data-role="navbar">
+  					 <ul>
+  					   <li><a href="#explore"><img src="img/home.png" alt="" /></br>Explore</a></li>
+  					   <li id="friendIcon"><a href="#friends"><img src="img/friends.png" alt="" /></br>Friends</a></li>
+  					   <li id="invent"><a href="#inventory"><img src="img/items.png" alt="" /></br>Item Log</a></li>
+  					   <li><a href="#settings"><img src="img/settings.png" alt="" /></br>Settings</a></li>
+  				   </ul>
+  				  </nav><!-- /navbar -->
+  				</footer>
 				</article>
 				
 		<article id="inventory" data-role="page" data-theme="a">
-		
-					<header data-role="header">
-						<h2>The Borrower - Inventory</h2>
-					</header>
+					<header data-role="header" id="header">
+  					<h1>Logo</h1>
+  					<h2>The Borrower</h2>
+  				</header>
 		
 					<section data-role="content">	
-						<nav data-role="navbar" data-theme="b">
+						<nav data-role="navbar" data-theme="p" id="jumpNav">
 							<ul>
-								<li><a href="#out">Out</a></li>
-								<li><a href="#in">In</a></li>
-								<li><a href="#own">Own</a></li>
+								<li id="outBtn"><a href="#out">Out</a></li>
+								<li id="inBtn"><a href="#in">In</a></li>
 							</ul>
 						</nav>
 						
-						</br>
-						</br>
-						
-						<ul data-role="listview" data-theme="c"  data-divider-theme="d">
+						<ul data-role="listview" data-theme="c" data-inset="true" data-divider-theme="o">
 							<li data-role="list-divider" id="out">Out</li>
 							
-							<li><a href="http://"><img src="img/up.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
-							
-		
+							<li><a href="#items"><h3>Surfboard</h3><p>Donte</p><span class="ui-li-count">2 days</span></a></li>
+							<li><a href="http://"><h3>Skies</h3><p>Grant</p><span class="ui-li-count">10 days</span></a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="c" data-inset="true" data-divider-theme="i">	
 							<li data-role="list-divider" id="in">In</li>
 							
-							<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
-							
-							
-							<li data-role="list-divider" id="own">Own</li>
-							
-							<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
-							
-							<li><a href="http://"><img src="img/down.png" alt="" id="itmImg"/><h3 id="itmName">Hammer</h3><p id="itmOwner">Jessica</p><span class="ui-li-count" id="itmNum">2d</span></a></li>
-							
+							<li><a href="http://"><h3>Hammer</h3><span class="ui-li-count">Available</span></a></li>
 						</ul>
 					</section>
 		
-					<footer data-role="footer" data-position="fixed">
-						<nav data-role="navbar">
-							<ul>
-								<li><a href="#explore"><img src="img/icons_11.png" alt="" /></br>Explore</a></li>
-								<li><a href="#friends"><img src="img/icons_08.png" alt="" /></br>Friends</a></li>
-								<li><a href="#inventory"><img src="img/icons_06.png" alt="" /></br>Inventory</a></li>
-								<li><a href="#logout"><img src="img/icons_03.png" alt="" /></br>Logout</a></li>							</ul>
-						</nav><!-- /navbar -->
-					</footer>
-				</article>		
+					<footer data-role="footer" data-position="fixed" data-theme="b">
+  					<nav data-role="navbar">
+  					 <ul>
+  					   <li><a href="#explore"><img src="img/home.png" alt="" /></br>Explore</a></li>
+  					   <li id="friendIcon"><a href="#friends"><img src="img/friends.png" alt="" /></br>Friends</a></li>
+  					   <li id="invent"><a href="#inventory"><img src="img/items.png" alt="" /></br>Item Log</a></li>
+  					   <li><a href="#settings"><img src="img/settings.png" alt="" /></br>Settings</a></li>
+  					 </ul>
+  				  </nav><!-- /navbar -->
+  				</footer>
+				</article>	
+						
+		<article id="items" data-role="page" data-theme="a">
 
-  	</body>
+			<header data-role="header" id="header">
+			   <h1>Logo</h1>
+				<h2>The Borrower</h2>
+			</header>
 
-	<script src="js/main.js"></script>
+			<section data-role="content" data-theme="c" id="details">
+			<ul data-role="listview" data-theme="c" data-divider-theme="o" id="status">
+							<li data-role="list-divider">Out - 2 days</li>
+			</ul>
+				<h2>Surfboard - Jessica S.</h2> 	
+			  <h3>Orlando, Fl</h3>
+			  <p>This is where the description of this item will go.</p>
+			  <a class="btnAction" href="#">Borrow</a>
+			</section>
+
+			<footer data-role="footer" data-position="fixed" data-theme="b">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#explore"><img src="img/home.png" alt="" /></br>Explore</a></li>
+						<li id="friendIcon"><a href="#friends"><img src="img/friends.png" alt="" /></br>Friends</a></li>
+						<li id="invent"><a href="#inventory"><img src="img/items.png" alt="" /></br>Item Log</a></li>
+						<li><a href="#settings"><img src="img/settings.png" alt="" /></br>Settings</a></li>
+					</ul>
+				</nav><!-- /navbar -->
+			</footer>
+		</article>
+
+				
+				
+		<article id="settings" data-role="page" data-theme="a">
+
+			<header data-role="header" id="header">
+			   <h1>Logo</h1>
+				<h2>The Borrower</h2>
+			</header>
+
+			<section data-role="content" data-theme="c">
+			  <link id="logoutFace">Logout</link> 	
+		    <p><a href="">Feedback</a></p>
+			</section>
+
+			<footer data-role="footer" data-position="fixed" data-theme="b">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#explore"><img src="img/home.png" alt="" /></br>Explore</a></li>
+						<li id="friendIcon"><a href="#friends"><img src="img/friends.png" alt="" /></br>Friends</a></li>
+						<li id="invent"><a href="#inventory"><img src="img/items.png" alt="" /></br>Item Log</a></li>
+						<li><a href="#settings"><img src="img/settings.png" alt="" /></br>Settings</a></li>
+					</ul>
+				</nav><!-- /navbar -->
+			</footer>
+		</article>
+	
+  				<div id="fb-root"></div>
+  				<script src="http://connect.facebook.net/en_US/all.js"></script>
+  						
+  			</body>
+  	 <script src="js/face.js"></script>	
+  	<script src="js/main.js"></script>
 </html>
